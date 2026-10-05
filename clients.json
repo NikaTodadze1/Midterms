@@ -1,0 +1,54 @@
+{
+    "users": [
+        {
+            "firstname": "Admin",
+            "lastname": "Admin",
+            "username": "Admin1",
+            "password": "$2b$12$zrwWmjfKsDlIb4vLireXpONwzPUn3CdT2YFQnLOXhMWSa31zwLl12",
+            "balance": {
+                "\u20be": 0,
+                "$": 1000.0,
+                "\u20ac": 0
+            },
+            "Account Number": "GE12NT1234567890123456",
+            "role": "admin"
+        },
+        {
+            "firstname": "Nika",
+            "lastname": "Todadze",
+            "username": "Nika1",
+            "password": "$2b$12$xD4GXvI/phOaqSSgPcY7NOSj63LQ1QPuXhF5yQd2ke6x2SmjQSuAK",
+            "balance": {
+                "\u20be": 0,
+                "$": 10300.0,
+                "\u20ac": 0
+            },
+            "Account Number": "GE32YK7675783262085817",
+            "role": "client"
+        },
+        {
+            "firstname": "Giorgi",
+            "lastname": "Gelashvili",
+            "username": "Gio1",
+            "password": "$2b$12$0e2PHclHWD5I48ntDf2RsOLIXVxuSLEmt/VEc0GQageFcn2u8Onvm",
+            "balance": {
+                "\u20be": 26.0,
+                "$": 890.0,
+                "\u20ac": 0
+            },
+            "Account Number": "GE83FA0690950209239921",
+            "role": "client"
+        }
+    ],
+    "loan_requests": [
+        {
+            "username": "Gio1",
+            "amount": 800.0,
+            "currency": "$",
+            "months": 6,
+            "monthly_payment": 144.0,
+            "rate": 8,
+            "status": "Accepted"
+        }
+    ]
+}
